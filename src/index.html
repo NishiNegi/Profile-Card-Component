@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Profile card component</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/component.css" />
+    <link rel="stylesheet" href="./css/page.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        font-size: 11px;
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main id="container">
+      <section id="card-top">
+        <article id="avatar" class="img-container">
+          <img id="pic" src="../assets/image-profile.jpg" alt="" />
+        </article>
+        <article id="info">
+          <div class="info-top">
+            <h1 id="name">Cristian Moreno</h1>
+            <p id="age">33</p>
+          </div>
+          <p id="city">London</p>
+        </article>
+      </section>
+
+      <section id="card-bottom">
+        <p id="followers" class="stats">
+          <span class="highlight">80K</span>Followers
+        </p>
+        <p id="likes" class="stats"><span class="highlight">803K</span>Likes</p>
+        <p id="photos" class="stats">
+          <span class="highlight">1.4K</span> Photos
+        </p>
+      </section>
+    </main>
+
+    <div class="attribution">Coded by <a href="https://github.com/NishiNegi">Juan Camilo Orjuela</a>.</div>
+  </body>
+</html>
